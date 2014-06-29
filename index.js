@@ -9,6 +9,7 @@ module.exports = function (port, host, callback) {
     assert.ok(typeof host === "string", "host should be a string")
         
     return new Promise(function (resolve, reject) {
+    
         const connectParams = {
             port: port,
             host: host
@@ -24,7 +25,9 @@ module.exports = function (port, host, callback) {
     
         client.on('error', function (e) {
             resolve(false)
-        })            
+        })
+        
     }).nodeify(callback)
+    
 }
 
