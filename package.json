@@ -1,0 +1,18 @@
+{
+  "name": "testconnection",
+  "version": "0.0.1",
+  "description": "to test connection to specific port",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "~1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
