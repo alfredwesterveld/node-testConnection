@@ -1,3 +1,6 @@
+Deprecated warning
+===
+
 ```javascript
 "use strict"
 
